@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 5000;
 
 // Enable CORS with specific options
 app.use(cors({
-  origin: 'https://crypto-sphare-frontend.vercel.app/', // Allow your frontend origin
+  origin: 'https://crypto-sphare-frontend.vercel.app', // Allow your frontend origin
   methods: ['GET', 'POST', 'OPTIONS'], // Allowed methods
   allowedHeaders: ['Content-Type', 'Authorization'], // Allowed headers
   credentials: true // Allow cookies
