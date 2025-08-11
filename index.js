@@ -8,8 +8,9 @@ const PORT = process.env.PORT || 5000;
 
 // Allow both Vercel frontend and localhost
 const allowedOrigins = [
-  'https://crypto-sphare-frontend.vercel.app',
-  'http://localhost:5173'
+  'https://cryptosphare.nextheadline.online',
+  'http://localhost:5173',
+
 ];
 
 app.use(cors({
